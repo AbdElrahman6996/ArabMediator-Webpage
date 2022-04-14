@@ -1,0 +1,341 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  background: #290643;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 1rem 2rem;
+}
+
+header .nav {
+  display: none;
+}
+
+header .hamburger {
+  width: 2rem;
+  cursor: pointer;
+}
+
+.reponsive-nav {
+  display: none;
+  text-align: center;
+  z-index: 9999;
+  text-align: center;
+}
+
+.reponsive-nav ul li {
+  padding: 1.5rem 0;
+}
+
+.reponsive-nav ul li:hover {
+  font-size: 1.2rem;
+  -webkit-transition: font-size 0.3s ease-in-out;
+  transition: font-size 0.3s ease-in-out;
+}
+
+.reponsive-nav ul li a {
+  color: #fff;
+}
+
+.reponsive-nav ul li .login-btn-two {
+  background: #40545d;
+  color: #fff;
+  padding: 7px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.reponsive-nav.responsive {
+  display: unset;
+}
+
+.hero-section.hide {
+  display: none;
+}
+
+.hero-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 5rem;
+  clear: both;
+  overflow: hidden;
+}
+
+.hero-section .box {
+  width: 80vw;
+  height: 5vh;
+  background-color: white;
+  border-radius: 7px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  clear: both;
+  overflow: hidden;
+  padding: 15px 8px;
+}
+
+.hero-section .box img {
+  width: 2rem;
+  margin-right: 2rem;
+  float: left;
+  background: white;
+  height: 1.3rem;
+  cursor: pointer;
+}
+
+.hero-section .box input {
+  float: right;
+  direction: rtl;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  border: none;
+  outline: none;
+  background: white;
+  height: 30vh;
+}
+
+.bigscammers {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 4rem;
+  overflow: hidden;
+  clear: both;
+}
+
+.bigscammers .container {
+  width: 70vw;
+  background: #ac404c;
+  border-radius: 6px;
+  -webkit-box-shadow: 5px 5px 10px 1px black;
+  box-shadow: 5px 5px 10px 1px black;
+  margin-bottom: 2rem;
+}
+
+.bigscammers .container img {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 20vw;
+  border-radius: 6px;
+}
+
+.bigscammers .container h3 {
+  color: #fff;
+  background: #ac404c;
+}
+
+.bigscammers .container h6 {
+  color: #fff;
+  background: #ac404c;
+}
+
+.bigscammers .container p {
+  color: black;
+  font-weight: bold;
+  background: #ac404c;
+}
+
+.bigscammers .main {
+  width: 70vw;
+  background: #ca4c58;
+  border-radius: 6px;
+  -webkit-box-shadow: 5px 5px 10px 1px black;
+  box-shadow: 5px 5px 10px 1px black;
+  margin-bottom: 2rem;
+}
+
+.bigscammers .main img {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 20vw;
+  border-radius: 6px;
+}
+
+.bigscammers .main h3 {
+  color: #fff;
+  background: #ca4c58;
+}
+
+.bigscammers .main h6 {
+  color: #fff;
+  background: #ca4c58;
+}
+
+.bigscammers .main p {
+  color: black;
+  font-weight: bold;
+  background: #ca4c58;
+}
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  color: #fff;
+}
+
+@media screen and (min-width: 1000px) {
+  .bigscammers {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 3.5rem;
+    overflow: hidden;
+    clear: both;
+  }
+  .bigscammers .container {
+    width: 25vw;
+    background: #ac404c;
+    border-radius: 6px;
+    -webkit-box-shadow: 5px 5px 10px 1px black;
+    box-shadow: 5px 5px 10px 1px black;
+    margin-bottom: 2rem;
+  }
+  .bigscammers .container img {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 20vw;
+    border-radius: 6px;
+  }
+  .bigscammers .container h3 {
+    color: #fff;
+    background: #ac404c;
+  }
+  .bigscammers .container h6 {
+    color: #fff;
+    background: #ac404c;
+  }
+  .bigscammers .container p {
+    color: black;
+    font-weight: bold;
+    background: #ac404c;
+  }
+  .bigscammers .main {
+    background: #ca4c58;
+    border-radius: 6px;
+    -webkit-box-shadow: 5px 5px 10px 1px black;
+    box-shadow: 5px 5px 10px 1px black;
+    margin-bottom: 2rem;
+  }
+  .bigscammers .main img {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 20vw;
+    border-radius: 6px;
+  }
+  .bigscammers .main h3 {
+    color: #fff;
+    background: #ca4c58;
+  }
+  .bigscammers .main h6 {
+    color: #fff;
+    background: #ca4c58;
+  }
+  .bigscammers .main p {
+    color: black;
+    font-weight: bold;
+    background: #ca4c58;
+  }
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 1rem 2rem;
+  }
+  header .hamburger,
+  header .close {
+    display: none;
+  }
+  header .nav {
+    display: unset;
+    width: 55vw;
+    text-align: center;
+  }
+  header .nav li {
+    display: inline-block;
+  }
+  header .nav li:hover {
+    text-decoration: underline;
+  }
+  header .nav .regular {
+    float: left;
+  }
+  header .nav .regular a {
+    color: #fff;
+  }
+  header .nav .regular .one {
+    padding-left: 0;
+  }
+  header .nav .regular .two {
+    padding-left: 30px;
+  }
+  header .nav .login {
+    float: right;
+  }
+  header .nav .login .login-btn {
+    background: #40545d;
+    color: #fff;
+    padding: 7px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+  }
+}
+/*# sourceMappingURL=style.css.map */
